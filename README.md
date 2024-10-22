@@ -1,7 +1,7 @@
 ![logo (Small) (Phone)](https://github.com/user-attachments/assets/74a20c86-de7a-4bd5-994b-4cc7e1b8fef5)
 
 <p style="text-align: center;"><strong>CRUSADARR</strong></p>
-<p>Welcome to the Warhammer 40k Unit Tracker app, your ultimate companion for managing your tabletop gaming experience! Designed for Warhammer 40k enthusiasts, <br />this app simplifies unit tracking and game management, allowing you to focus on strategy and gameplay.</p>
+<p>Welcome to the Crusadarr, your ultimate companion for managing your Crusade game! Designed for Warhammer 40k enthusiasts, <br />this app simplifies unit tracking and game management, allowing you to focus on strategy and gameplay.</p>
 <p>Key Features:</p>
 <ul>
 <li>Roster Management: Easily input and manage your army roster by pasting your unit list. The app automatically categorizes your units and tracks important statistics.</li>
