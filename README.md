@@ -1,4 +1,4 @@
-![logo (Small)](https://github.com/user-attachments/assets/5d8f3c4f-e648-4264-9330-5e880ad56f0f)
+![logo (Small) (Phone)](https://github.com/user-attachments/assets/74a20c86-de7a-4bd5-994b-4cc7e1b8fef5)
 
 <p style="text-align: center;"><strong>CRUSADARR</strong></p>
 <p>Welcome to the Warhammer 40k Unit Tracker app, your ultimate companion for managing your tabletop gaming experience! Designed for Warhammer 40k enthusiasts, <br />this app simplifies unit tracking and game management, allowing you to focus on strategy and gameplay.</p>
@@ -12,4 +12,5 @@
 <li>PDF Export: Generate a detailed PDF report of your game data for easy sharing with friends or for your personal records. Customize the file name and date for better organization.</li>
 <li>User-Friendly Interface: The app features a sleek, dark theme that enhances readability while minimizing eye strain during long gaming sessions.</li>
 </ul>
+
 
