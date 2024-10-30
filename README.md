@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <strong>Crusadarr</strong> – a comprehensive Warhammer 40,000 Crusade game tracker that allows players to log their units kills and deaths, command points and round points.
+  <strong>Crusadarr</strong> – Your Ultimate Warhammer 40,000 Companion. Track every unit's triumphs, agendas, and sacrifices in the heat of Crusade gameplay. With Crusadarr, manage command points, tally round points, and chronicle every glorious (or grim) turn on the battlefield!
 </p>
 
 ---
