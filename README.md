@@ -33,7 +33,7 @@
 
 <h2 id="technologies-used">Technologies Used</h2>
 <ul>
-  <li>React: Core framework for building the app’s interactive UI.</li>
+  <li>Vite + React: Core framework for building the app’s interactive UI.</li>
   <li>MUI: Provides responsive and modern styling with Material UI components.</li>
   <li>Google Sheets API: Integrates dynamic rule fetching from Google Sheets for rule customization and ease of management.</li>
   <li>React Router: Enables smooth navigation between pages.</li>
