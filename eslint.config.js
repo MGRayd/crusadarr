@@ -3,6 +3,7 @@ import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
+import deprecate from 'eslint-plugin-deprecate'
 
 export default [
   { ignores: ['dist'] },
@@ -22,6 +23,7 @@ export default [
       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      deprecate,
     },
     rules: {
       ...js.configs.recommended.rules,
@@ -32,6 +34,13 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
+      ],
+      'deprecate/function': [
+        'warn',
+        {
+          name: 'oldFunction',
+          use: 'newFunction',
+        },
       ],
     },
   },

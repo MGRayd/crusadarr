@@ -1,25 +1,32 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87); /* Default text color for dark mode */
-  background-color: #242424; /* Default background for dark mode */
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
+  --font-weight: 400;
+  --color-scheme: light dark;
+  --text-color: rgba(255, 255, 255, 0.87); /* Default text color for dark mode */
+  --background-color: #242424; /* Default background for dark mode */
+  --link-color: #646cff; /* Link color */
+  --link-hover-color: #535bf2; /* Link hover color */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight);
+  color-scheme: var(--color-scheme);
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 a {
   font-weight: 500;
-  color: #646cff; /* Link color */
+  color: var(--link-color); /* Link color */
   text-decoration: inherit; /* Inherit decoration */
 }
 a:hover {
-  color: #535bf2; /* Link hover color */
+  color: var(--link-hover-color); /* Link hover color */
 }
 
 body {
@@ -29,7 +36,7 @@ body {
   flex-direction: column; /* Center elements vertically and allow stacking */
   min-width: 320px;
   min-height: 100vh;
-  background-color: #242424; /* Ensure background color is consistent */
+  background-color: var(--background-color); /* Ensure background color is consistent */
 }
 
 h1 {
@@ -44,41 +51,4 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a; /* Button background */
-  color: white; /* Button text color */
-  cursor: pointer;
-  transition: border-color 0.25s, background-color 0.25s; /* Added transition for background */
-}
-button:hover {
-  border-color: #646cff; /* Border color on hover */
-  background-color: #292929; /* Darken background on hover */
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color; /* Focus outline for accessibility */
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547; /* Default text color for light mode */
-    background-color: #ffffff; /* Background color for light mode */
-  }
-  a:hover {
-    color: #747bff; /* Link hover color in light mode */
-  }
-  button {
-    background-color: #f9f9f9; /* Button background in light mode */
-    color: black; /* Button text color in light mode */
-  }
-}
-
-/* Additional responsive styles */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.5em; /* Smaller heading on mobile */
-  }
-  button {
-    padding: 0.4em 1em; /* Smaller button padding on mobile */
-  }
 }
