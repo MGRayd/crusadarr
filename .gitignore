@@ -26,3 +26,8 @@ dist-ssr
 
 # Environment variables
 *.env
+
+# Credentials
+/credentials/
+credentials/
+*.json

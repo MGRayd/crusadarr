@@ -61,7 +61,7 @@ const FAQ = ({ open, onClose }) => {
           <AccordionDetails>
             <Typography component="div">To add your roster:</Typography>
             <Typography component="div" sx={{ pl: 2 }}>
-              • Enter Player Name and Faction<br />
+              • Enter your name and select your faction<br />
               • Paste 40K Roster from Official 40K app into the Paste Roster field<br />
               • Click on Parse button
             </Typography>
