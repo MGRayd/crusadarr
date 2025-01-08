@@ -61,11 +61,9 @@ const FAQ = ({ open, onClose }) => {
           <AccordionDetails>
             <Typography component="div">To add your roster:</Typography>
             <Typography component="div" sx={{ pl: 2 }}>
-              • Enter your name and select your faction<br />
-              • Click on "Start Tracking"<br />
-              • Use the "+" button to add units<br />
-              • Fill in the unit details<br />
-              • Save your changes
+              • Enter Player Name and Faction<br />
+              • Paste 40K Roster from Official 40K app into the Paste Roster field<br />
+              • Click on Parse button
             </Typography>
           </AccordionDetails>
         </Accordion>
